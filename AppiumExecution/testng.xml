@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SelendroidApp">
+  <test thread-count="1" name="SelendroidAppReg">
+    <classes>
+      <class name="TestExecution.TestCase"/>
+     <!-- <class name="TestExecution.Execution"/> -->
+    </classes>
+  </test> <!-- SelendroidAppReg -->
+</suite> <!-- SelendroidApp -->

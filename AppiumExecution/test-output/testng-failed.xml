@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SelendroidApp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SelendroidAppReg(failed)">
+    <classes>
+      <class name="objectManager.AppObject">
+        <methods>
+          <include name="UserReg"/>
+          <include name="CloseApp"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- objectManager.AppObject -->
+    </classes>
+  </test> <!-- SelendroidAppReg(failed) -->
+</suite> <!-- Failed suite [SelendroidApp] -->
