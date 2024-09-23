@@ -22,4 +22,11 @@ public class LeetCode {
                 lexi(i*10,i*10+9,n,lt);
             }
         }
+
+
+    public void test()
+    {
+        System.out.println("test");
     }
+    }
+
