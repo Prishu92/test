@@ -17,7 +17,6 @@ public class Logintest {
         LoginPage login=new LoginPage(DriverFactory.getDriver());
         login.navigateTo("https://example.com/login");
         login.login("admin","admin123");
-
     }
     @AfterMethod
     public void tearDown(){

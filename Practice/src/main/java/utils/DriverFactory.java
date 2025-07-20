@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
+import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverFactory {
     private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
 
@@ -12,6 +13,7 @@ public class DriverFactory {
 
     public static void initDriver(String browser){
         if(browser.equalsIgnoreCase("chrome")){
+            WebDriverManager.chromedriver().setup();
             driver.set(new ChromeDriver());
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver.set(new FirefoxDriver());
