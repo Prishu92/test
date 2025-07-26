@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ffe3a35-b42f-41f0-b9ac-ad3cc0049de8" name="Changes" comment="update commint 11/24" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2clRjDP46CnxtS5oKQFZhszhHob" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.InterviewCode.executor": "Run",
+    "Application.LeetCode.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.wenManager.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.webManager.executor": "Run",
+    "TestNG.webManager.practice.executor": "Run",
+    "git-widget-placeholder": "framework",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cluvi/IdeaProjects/firstIntelijProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/cluvi/IdeaProjects/firstIntelijProject/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\cluvi\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="381addb8-bd85-46f4-acf2-987b33420a90" reportId="firstIntelijProject/qodana/2024-11-24" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.webManager.practice">
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode" />
+      <module name="firstIntelijProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="firstIntelijProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wenManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wenManager" />
+      <module name="firstIntelijProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstIntelijProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="webManager" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webManager.practice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstIntelijProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="webManager" />
+      <option name="METHOD_NAME" value="practice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.webManager.practice" />
+        <item itemvalue="TestNG.webManager" />
+        <item itemvalue="Application.wenManager" />
+        <item itemvalue="Application.LeetCode" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ffe3a35-b42f-41f0-b9ac-ad3cc0049de8" name="Changes" comment="" />
+      <created>1708684314475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708684314475</updated>
+      <workItem from="1708684316001" duration="3141000" />
+      <workItem from="1708696427814" duration="1149000" />
+      <workItem from="1708773600737" duration="3605000" />
+      <workItem from="1712491159568" duration="2000" />
+      <workItem from="1712491193898" duration="249000" />
+      <workItem from="1713158945086" duration="11000" />
+      <workItem from="1713159233708" duration="8000" />
+      <workItem from="1713159312800" duration="12000" />
+      <workItem from="1713159342907" duration="9000" />
+      <workItem from="1713159405986" duration="11000" />
+      <workItem from="1713159428401" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="update commint 11/24">
+      <option name="closed" value="true" />
+      <created>1732422080406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732422080406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update commint 11/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="update commint 11/24" />
+  </component>
+</project>
