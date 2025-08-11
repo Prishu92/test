@@ -1,9 +1,12 @@
 package tests;
 
+import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import static io.restassured.RestAssured.given;
 
-public class StringManupulation {
+public class StringManupulation{
     @DataProvider(name = "stringDataProvider")
     public Object[][] stringDataProvider() {
         return new Object[][] {
@@ -12,9 +15,8 @@ public class StringManupulation {
                 {"hello"}
         };
     }
-    @Test(priority = 1, enabled = true, dataProvider = "stringDataProvider")
+    @Test(priority = 1, enabled = false, dataProvider = "stringDataProvider")
     public void reverseString(String str){
-        //String str = "Hello World";
         String rvrs="";
         for(int i=str.length()-1;i>=0;i--){
             rvrs += str.charAt(i);
@@ -34,7 +36,7 @@ public class StringManupulation {
 
     }
 
-    @Test(priority = 2, enabled = true, dataProvider = "stringDataProvider")
+    @Test(priority = 2, enabled = false, dataProvider = "stringDataProvider")
     public void countVowels(String str){
       //  String str = "Prashant Singh";
         int count =0;
@@ -47,7 +49,7 @@ public class StringManupulation {
         }
         System.out.println("Number of vowels in the string: " + count);
     }
-    @Test(priority = 3, enabled = true, dataProvider = "stringDataProvider")
+    @Test(priority = 3, enabled = false, dataProvider = "stringDataProvider")
     public void displayDuplicateCharacters(String str){
        // String str = "Prashant Singh";
         for(int i=0;i<str.length();i++){
@@ -67,7 +69,7 @@ public class StringManupulation {
         System.out.println(str.equals(new StringBuilder(str).reverse().toString()));
     }
 
-    @Test(priority =5, enabled =true)
+    @Test(priority =5, enabled =false)
     public void numInString() {
         String str = "Pras234hant123";
         for (int i = 0; i < str.length(); i++) {
@@ -77,7 +79,7 @@ public class StringManupulation {
             }
         }
     }
-    @Test(priority = 6, enabled = true)
+    @Test(priority = 6, enabled = false)
     public void findValidEmail() {
         String email = "testtest.com";
         String emailRegex = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$";
@@ -87,4 +89,18 @@ public class StringManupulation {
             System.out.println("Invalid email: " + email);
         }
     }
+
+    @Test(priority = 7, enabled = true)
+    public void api(){
+         Response response= given().
+                 when().
+                 get("https://reqres.in/api/users/2").
+                 then()
+                 .statusCode(200)
+                 .extract().response();
+         System.out.println(response.asString());
+         String email=response.jsonPath().getString("data.email");
+         Assert.assertEquals(email,"janet.weaver@reqres.in");
+         Assert.assertEquals(response.jsonPath().getString("support.text"),"Tired of writing endless social media content? Let Content Caddy generate it for you.");
+     }
 }
