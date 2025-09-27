@@ -65,17 +65,17 @@ public class StringManupulation{
 
     @Test(priority = 4, enabled = true, dataProvider = "stringDataProvider")
     public void palindromeCheck(String str){
-        str=str.replaceAll("a-zA-Z0-9","").toLowerCase();
-        System.out.println(str.equals(new StringBuilder(str).reverse().toString()));
+    str=str.replaceAll("a-zA-Z0-9","").toLowerCase();
+    System.out.println(str.equals(new StringBuilder(str).reverse().toString()));
     }
 
-    @Test(priority =5, enabled =false)
+    @Test(priority =5, enabled =true)
     public void numInString() {
-        String str = "Pras234hant123";
+        String str = "Pras234  hant123";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (Character.isDigit(ch)) {
-                System.out.println("Number in the string: " + ch);
+            if (!Character.isLetter(ch) && !Character.isWhitespace(ch)) {
+                System.out.print("Number in the string: " + ch);
             }
         }
     }

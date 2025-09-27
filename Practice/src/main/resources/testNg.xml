@@ -4,6 +4,7 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="tests.StringManupulation"/>
+            <class name="tests.IntegerManupulation"/>
         </classes>
     </test>
 
